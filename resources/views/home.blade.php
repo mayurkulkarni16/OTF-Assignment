@@ -13,7 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                        <img src="\OTFcode\storage\app\public\images\{{ $data->profile }}" class="rounded mx-auto d-block" alt="...">
+                        <img src="\images\{{ $data->profile }}" class="rounded mx-auto d-block" alt="...">
                         <table class="table table-bordered table-striped" style="text-align: center">
                             <thead>
                             <th>Field</th>
