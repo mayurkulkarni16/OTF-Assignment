@@ -1,0 +1,1 @@
+To verify Email <a href="{{ route('emailDone', ["email" => $user->email, "verify_token" => $user->verify_token]) }}">Click Here</a>
